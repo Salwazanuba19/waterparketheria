@@ -1,1 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <main class="landing-page-container">
+        <nav class="waterpark-navigation">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/c313dc8c702d750cc35902a3d30f316a7fb9a6a7?placeholderIfAbsent=true" alt="" class="logo-image">
+            <h1 class="company-title">Etheria Waterpark</h1>
+            <div class="navigation-items">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#tickets" class="nav-link">Pesan Tiket</a>
+                <button class="login-button">LOGIN</button>
+            </div>
+            <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="4" y1="6" x2="20" y2="6"></line>
+                    <line x1="4" y1="12" x2="20" y2="12"></line>
+                    <line x1="4" y1="18" x2="20" y2="18"></line>
+                </svg>
+            </button>
+        </nav>
+       <section class="hero-container slider">
+  <div class="slide active">
+    <img src="https://www.ancol.com/blog/wp-content/uploads/2024/04/kolam-ombak.jpg" class="background-image" alt="Slide 1" />
+    <div class="content-wrapper">
+      <div class="hero-content">
+        <header class="hero-text">
+          <div class="title-section">
+            <h1 class="main-title">ETHERIA WATERPARK</h1>
+            <p class="subtitle">Booking Tiket dalam<br />Hitungan detik yang praktis dan tanpa ribet!</p>
+          </div>
+        </header>
+        <button class="booking-button">Booking now</button>
+      </div>
+    </div>
+  </div>
+  <div class="slide">
+    <img src="https://rentalmobiljogja.id/wp-content/uploads/2017/03/pandawa-water-world-1080x810.jpg" class="background-image" alt="Slide 2" />
+    <div class="content-wrapper">
+      <div class="hero-content">
+        <header class="hero-text">
+          <div class="title-section">
+            <h1 class="main-title">Wahana Seru!</h1>
+            <p class="subtitle">Ayo nikmati keseruan wahana air kami sekarang juga!</p>
+          </div>
+        </header>
+        <button class="booking-button">Lihat Wahana</button>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="facilities-section">
+  <header class="facilities-header">
+    <h1 class="facilities-title">FASILITAS</h1>
+  </header>
+  <div class="carousel-container">
+    <div class="carousel-track">
+      <div class="carousel-card">
+        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/7e52410ab3d874418a20b5f079f2f30b6c279970?placeholderIfAbsent=true" class="facility-icon" />
+        <h2 class="facility-title">Fasilitas<br />baik</h2>
+      </div>
+      <div class="carousel-card active">
+        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/99190c4a4cd3b32aef0c2dedd14dad4ad98a610c?placeholderIfAbsent=true" class="facility-icon" />
+        <h2 class="facility-title">Wahana Lengkap<br />dan seru</h2>
+      </div>
+      <div class="carousel-card">
+        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/ea1b3d9d7137b417ea3f34a4fa48eaee4311bead?placeholderIfAbsent=true" class="facility-icon" />
+        <h2 class="facility-title">Keamanan<br />Terjamin</h2>
+      </div>
+    </div>
+    
+    <div class="carousel-dots">
+      <span class="dot active"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+  </div>
+</section>
 
+    <section class="wahana-air">
+    <h1>WAHANA AIR</h1>
+    <div class="carousel-wrapper">
+      <button class="nav left" onclick="slideLeft()">&#10094;</button>
+
+      <div class="carousel" id="carousel">
+        <div class="card">
+          <img src="https://www.fluidra.com/wp-content/uploads/2023/07/Aqua-27-2.webp" alt="Wave Pool">
+          <h3>Wave Pool</h3>
+          <p>Nikmati santai mengapung di atas ban mengikuti arus tenang sungai buatan yang mengelilingi area waterpark. Cocok untuk bersantai sambil menikmati suasana.</p>
+        </div>
+        <div class="card">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/RWP-Lazy_Wave_River.jpg/1200px-RWP-Lazy_Wave_River.jpg" alt="Lazy River">
+          <h3>Lazy River</h3>
+          <p>Kolam ombak seru yang menghadirkan sensasi seperti bermain di pantai dengan ombak buatan. Aman dan menyenangkan untuk semua usia.</p>
+        </div>
+        <div class="card">
+          <img src="https://willygoat.com/cdn/shop/products/40bb_cc049ba6-9ba2-4bf2-bd62-1e720221b930.jpg?v=1592938063" alt="Water Slide">
+          <h3>Water Slide</h3>
+          <p>Wahana seluncuran air dengan berbagai ketinggian dan tikungan menegangkan, cocok untuk pecinta adrenalin dan keseruan serta membuat liburan anda semakin seru tentunya.</p>
+        </div>
+      </div>
+
+      <button class="nav right" onclick="slideRight()">&#10095;</button>
+    </div>
+  </section>
+
+ <section class="kidscard">
+    <div class="image-side">
+      <img src="https://png.pngtree.com/png-vector/20230814/ourmid/pngtree-lifebuoy-image-png-image_6905969.png" alt="Pelampung">
+    </div>
+    <div class="text-side">
+      <h2>KIDS SAFETY</h2>
+      <p>Pelampung motif keren yang membuat moment bermain di Etheria Waterpark semakin seru!!!</p>
+      <div class="buttons">
+        <button class="btn-buy">Buy</button>
+        <div class="btn-price">Rp. 80.0000</div>
+      </div>
+    </div>
+  </section>
+ <section class="booking-section">
+    <h1>Etheria Waterpark</h1>
+    <div class="booking-buttons">
+      <button class="btn-booking">Booking out</button>
+      <button class="btn-disabled">&nbsp;</button>
+    </div>
+  </section>
+  <footer class="etheria-footer">
+    <div class="footer-left">
+      <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/c313dc8c702d750cc35902a3d30f316a7fb9a6a7?placeholderIfAbsent=true" alt="Etheria Logo">
+      <a href="https://www.etheria.com" target="_blank">www.etheria.com</a>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-right">
+      <div class="footer-column">
+        <h4>Tentang Kami</h4>
+        <a href="#">Wahana & Fasilitas</a>
+        <a href="#">Tiket & Promo</a>
+      </div>
+      <div class="footer-column">
+        <h4>Jam Operasional</h4>
+        <a href="#">Lokasi & Kontak</a>
+        <a href="#">FAQ</a>
+      </div>
+    </div>
+  </footer>
+
+<script>
+  let slideIndex = 0;
+  const slides = document.querySelectorAll('.slide');
+  setInterval(() => {
+    slides[slideIndex].classList.remove('active');
+    slideIndex = (slideIndex + 1) % slides.length;
+    slides[slideIndex].classList.add('active');
+  }, 5000);
+</script>
+<script>
+  const cards = document.querySelectorAll('.carousel-card');
+  const dots = document.querySelectorAll('.dot');
+  let current = 1;
+
+  function updateCarousel() {
+    cards.forEach((c, i) => {
+      c.classList.remove('active');
+      dots[i].classList.remove('active');
+    });
+    cards[current].classList.add('active');
+    dots[current].classList.add('active');
+  }
+
+  setInterval(() => {
+    current = (current + 1) % cards.length;
+    updateCarousel();
+  }, 4000);
+</script>
+
+<script>
+    function slideLeft() {
+      const carousel = document.getElementById("carousel");
+      carousel.scrollBy({ left: -320, behavior: 'smooth' });
+    }
+
+    function slideRight() {
+      const carousel = document.getElementById("carousel");
+      carousel.scrollBy({ left: 320, behavior: 'smooth' });
+    }
+  </script>
+ 
+
+    </main>
+</body>
+</html>
